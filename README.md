@@ -1,3 +1,3 @@
-# backbone
+# Backbone
 
-the foundation for a natively digital business
+The foundation for a natively digital business.
