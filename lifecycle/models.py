@@ -1,3 +1,8 @@
+# backbone_django_package v0: The Foundation for a Truly Digital Business
+# (c) 2018 José Sáenz
+# MIT License
+# https://github.com/josedante/backbone
+
 from django.db import models
 from django.contrib.auth.models import User
 
@@ -128,7 +133,6 @@ class Interaction(models.Model):
 	class Meta:
 	    unique_together = ('touchpoint','app_model_record_pk')
 	    ordering = ['date', 'app_model_record_pk']
-	
 	
 	def __str__(self):
 		customer_name = self.individual_customer.first_name + " " + self.individual_customer.fathers_name
